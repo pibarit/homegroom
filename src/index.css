@@ -1,0 +1,251 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .fixednavbar {
+            position: fixed;
+            top: 50px;
+            left: 100px;
+            width: 80vw;
+            z-index: 1000;
+            border-radius: 20PX;
+            background-color: white;
+        }
+        
+        .background {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: auto;
+            z-index: 1000;
+            height: 500px;
+            background-color: #ff5500d5;
+        }
+        
+        .curve {
+            position: relative;
+            /* bottom: -20px; */
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        
+        .nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 80vw;
+            height: 28%;
+            border: 1px solid black;
+            border-radius: 20px;
+            box-shadow: 0px 8px 2px 0px rgb(0, 0, 0);
+            flex-wrap: wrap;
+        }
+        
+        .nav h2 {
+            color: rgb(24, 168, 120);
+            margin: 10px;
+        }
+        
+        .navelements ul {
+            display: flex;
+            /* justify-content: end; */
+            align-items: center;
+            list-style: none;
+        }
+        
+        .navelements ul li {
+            margin: 10px;
+            font-size: large;
+        }
+        
+        .aboutCards {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            padding: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .aboutCard {
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 10px;
+            padding: 30px;
+            height: 260px;
+            width: 300px;
+        }
+        
+        .aboutCard:hover {
+            box-shadow: 0px 0px 12px 12px rgb(6, 199, 192);
+        }
+        
+        .btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: aliceblue;
+            border-radius: 15px;
+            height: 50px;
+            width: 100px;
+            margin: 10px;
+        }
+        
+        .signbtn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: aliceblue;
+            box-shadow: 4px 4px 2px 0px #ffc31f;
+            border-radius: 15px;
+            height: 50px;
+            width: 100%;
+            margin: 10px;
+        }
+        
+        .register {
+            background-color: rgb(250, 205, 55);
+            box-shadow: 4px 4px 0px 2px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            padding: 20px;
+            height: 200px;
+            width: 600px;
+        }
+        
+        .contactus {
+            background-color: rgb(10, 193, 183);
+            box-shadow: 4px 4px 0px 2px;
+            border-radius: 15px;
+            display: flex;
+            margin: 20px;
+            flex-direction: row;
+            /* justify-content: center; */
+            /* align-items: center; */
+            padding: 20px;
+            height: 200px;
+            width: 600px;
+        }
+        
+        .register-left {
+            display: flex;
+            width: 100%;
+            justify-content: left;
+        }
+        
+        .contactusright {
+            display: flex;
+            width: 100%;
+            justify-content: right;
+        }
+        
+        .contactform {
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+            margin: 10px;
+        }
+        
+        .signinpage {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+            padding: 10px;
+        }
+        
+        .signin,
+        .signup {
+            display: flex;
+            flex-direction: column;
+            justify-content: right;
+            width: 30vw;
+        }
+        
+        .signindetails input,
+        .signup input {
+            height: 30px;
+            width: 250px;
+            /* justify-self: end; */
+            /* justify-content: end; */
+            border: none;
+            border-bottom: 2px solid black;
+        }
+        
+        .signindetails {
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+        }
+        
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            overflow: hidden;
+            height: 100%;
+            padding: 100px;
+        }
+        
+        .serviceCard {
+            margin: 10px;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        .footer {
+            background-color: #2a2929;
+            color: #c6af02;
+            text-align: center;
+            padding: 1rem;
+        }
+        
+        ;
+        .homeimgs {
+            display: flex;
+            /* height: 100px; */
+            justify-content: space-between;
+            max-width: 600px;
+            /* width: 100%; */
+            margin: 0 auto;
+            /* margin-top: 10px;
+            margin-left: 80px; */
+            flex-direction: column;
+        }
+        /* .imgright {
+            margin-right: 40px;
+            margin-top: 10px;
+        } */
+        
+        .imgright,
+        .imgleft {
+            flex: 1;
+        }
+        
+        .imgright img,
+        .imgleft img {
+            /* margin-top: 50; */
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+        }
+        
+        .text {
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            flex-direction: column;
+        }
